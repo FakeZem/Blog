@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: 数字黄金
+title: 关于快手
 ---
 
 <h2>{{ page.title }}</h2>

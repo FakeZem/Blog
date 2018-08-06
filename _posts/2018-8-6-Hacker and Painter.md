@@ -8,11 +8,6 @@ author: "Zem"
 
 ---
 
-
-<h2>{{ page.title }}</h2>
-
-<p>{{ page.date | date_to_string }}</p>
-
 **保罗·格雷厄姆**
 
 > “程序是写出来给人看的，附带能在机器上运行。”

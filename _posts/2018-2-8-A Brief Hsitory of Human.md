@@ -8,9 +8,6 @@ author: "Zem"
 
 ---
 
-<h2>{{ page.title }}</h2>
-
-<p>{{ page.date | date_to_string }}</p>
 
 ### **——从动物到上帝**
 

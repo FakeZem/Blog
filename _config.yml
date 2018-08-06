@@ -1,24 +1,35 @@
 # Site settings
-title:          Tale
+
+title:          ÖÐ¶þÂí
+
 description:    "Minimal Jekyll theme for storytellers"
+
 baseurl:        "/Blog"
-url:            "https://chesterhow.github.io"
+
+url:            "https://fakezem.github.io/Blog"
 
 # Author
+
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  Zem
+name:         Zem
+  
+url:          https://chester.how
+  
+email:        chesterhow@gmail.com
 
 # Build settings
+
 markdown:       kramdown
 
 # Assets
 sass:
   sass_dir:     _sass
-  style:        compressed
+  
+style:        compressed
 
 # Gems
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

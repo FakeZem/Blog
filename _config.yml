@@ -1,6 +1,5 @@
 # Site settings
-title:          "ÖÐ¶þÂí"
-description:    "Minimal Jekyll theme for storytellers"
+title:          FakeZemdescription:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/Blog"
 url:            "https://chesterhow.github.io"
 

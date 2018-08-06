@@ -7,8 +7,17 @@ permalink: /about/
 
 
 
-## 我就是想简单地把想到的写下来而已，为什么这么难。
-#### 累
+## I just wanted to write it down. Why is it so hard?
+#### Tired
+
+
+
+
+
+
+
+
+
 ---
 
 

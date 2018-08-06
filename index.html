@@ -1,18 +1,4 @@
 ---
-layout: default
-title: 中二马
+layout: home
+title: Home
 ---
-
-<h1>{{ page.title }}</h1>
-
-<h4 style="text-align: right;">专注于把想到的写下来，也是很难啊。</h4>
-
-<ol style="width: auto;">
-
-{% for post in site.posts %}
-
-<li style="width: auto;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}——————{{ post.date | date_to_string }} </a></li>
-
-{% endfor %}
-
-</ol>

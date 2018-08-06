@@ -1,29 +1,29 @@
 <!DOCTYPE html>
+<html lang="en">
 
-　　<html>
+  {% include head.html %}
 
-　　<head>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+        <ul>
+          <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+          <li><a href="{{ site.baseurl }}/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
 
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <main>
+      {{ content }}
+    </main>
 
-　　　　<title>{{ page.title }}</title>
-		<style>
-			div{
-				width: auto;
-			}
-			body{
-
-				text-align: center;
-				padding:  0px 200px 0px 200px;
-			}
-		</style>
-
-　　</head>
-
-　　<body>
-		
-　　　　{{ content }}
-
-　　</body>
-
-　　</html>
+    <footer>
+      <span>
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>
